@@ -2,50 +2,69 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
 
+    <script type="application/json" src="/book.js"></script>
+    <script type="text/javascript" src="/rutaDelArchivo1.js"></script>
+    <meta charset="UTF-8">
     <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="jqjs.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-<script>
-$("#div1").load("https://travel.xiiber.com/1.html");
-</script>
-<script>
-$("#div2").load("https://travel.xiiber.com/2.txt");
-</script>
-    
-      <script>
+    <script type="application/json" src="jqjs.js"></script>
+
+    <script>
+        $("#div1").load("https://travel.xiiber.com/1.html");
+    </script>
+    <script>
+        $("#div2").load("https://travel.xiiber.com/2.txt");
+    </script>
+
+    <script>
         $(document).ready(function() {
             $("button").click(function() {
                 $("#div3").load("demo_test.txt #p1");
             });
         });
     </script>
-    
-  <script>
-        $(document).ready(function() { 
-            $("#div4").load("demo_test.txt #p1");
-           });
+
+    <script>
+        $(document).ready(function() {
+            $("#div4").load("demo_test.txt");
+        });
     </script>
-    
-    
+
+    <script>
+        $(document).ready(function() {
+            $("#div5").load("https://tepozspa.xiiber.com/");
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#div6").load("https://www.xiiber.com");
+        });
+    </script>
+
+
 </head>
+
 <body>
 
-<div id="div1"></div>
-<div id="div2"></div>
+    <div id="div1"></div>
+    <div id="div2"></div>
     <p id="div1"></p>
     <p id="div2"></p>
 
-    
-     <div id="div3">
+
+    <div id="div3">
         <h2>Let jQuery AJAX Change This Text</h2>
     </div>
 
     <button>Get External Content</button>
-    
+
     <div id="div4"> </div>
+
+    <div id="div5"> </div>
+
+    <div id="div6"> </div>
+
 </body>
+
 </html>
