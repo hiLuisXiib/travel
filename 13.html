@@ -2,10 +2,25 @@
 <html>
 
 <head>
-
-    <script type="application/json" src="/book.js"></script>
+    <title>book</title>
+    <script type="application/json" src="/book.js">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Book",
+            "name": "Library linked data in the cloud : OCLC's experiments with new models of resource description",
+            "author": "Carol Jean Godby",
+            "isbn": "9781627052191"
+            "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "OCoLC",
+                "value": "889647468"
+            },
+            "sameAs": "http://www.worldcat.org/oclc/889647468"
+        }
+    </script>
+    <script type="text/javascript" src="/rutaDelArchivo1.js"></script>
     <meta charset="UTF-8">
-    <script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+    <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="application/json" src="jqjs.js"></script>
 
     <script>
@@ -22,7 +37,6 @@
             });
         });
     </script>
-
     <script>
         $(document).ready(function() {
             $("#div4").load("demo_test.txt");
@@ -37,11 +51,9 @@
 
     <script>
         $(document).ready(function() {
-            $("#div6").load("https://www.xiiber.com");
+            $("#div6").load("https://www.xiiber.com/");
         });
     </script>
-
-
 </head>
 
 <body>
