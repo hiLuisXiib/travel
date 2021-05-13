@@ -7,25 +7,22 @@
     <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="jqjs.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+<script>
+$("#div1").load("https://travel.xiiber.com/1.txt");
+</script>
+<script>
+$("#div2").load("https://travel.xiiber.com/2.txt");
+</script>
 
-
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $("#div1").load("demo_test.txt #p1");
-            });
-        });
-    </script>
 </head>
-
 <body>
 
-    <div id="div1">
-        <h2>Let jQuery AJAX Change This Text</h2>
-    </div>
-
-    <button>Get External Content</button>
+<div id="div1"></div>
+<div id="div2"></div>
+    <p id="div1"></p>
+    <p id="div2"></p>
 
 </body>
-
 </html>
