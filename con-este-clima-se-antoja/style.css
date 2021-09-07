@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+body {
+    background: #A1CAC8;
+}
+
+body,
+a {
+    color: ;
+}
+
+h1 {
+    font-family: "Bevan";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2E0E07;
+    text-transform: uppercase;
+    text-align: center;
+    width: 360px;
+    margin: 5px auto 0;
+}
+
+.o {
+    display: inline-block;
+    margin-left: px;
+    margin-right: 1px;
+    -ms-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.e {
+    padding-left: 2px;
+}
+
+p {
+    font-family: "Roboto Condensed";
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    border-bottom: 1px solid black
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
